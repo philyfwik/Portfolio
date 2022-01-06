@@ -3,7 +3,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-const navbar = () => {
+const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className='container'>
@@ -42,4 +42,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar;
