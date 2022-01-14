@@ -122,3 +122,16 @@ nav {
   width: 100vw;
   z-index: 1;
 }
+
+/*************** Screen Size < 768 px *************/
+@media (max-width: 768px) {
+  #tsparticles {
+    display: none;
+  }
+  .main-info {
+    font-size: 1.5rem !important;
+  }
+  .btn-main-offer {
+    font-size: 1.5rem !important;
+  }
+}
